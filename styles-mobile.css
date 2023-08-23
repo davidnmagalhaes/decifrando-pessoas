@@ -1,0 +1,410 @@
+@media(min-width: 2100px){
+  .about {
+    top: -32px;
+}
+}
+
+@media(min-width: 1537px){
+  .call-to-action-2-content div:nth-child(2) a{
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 1536px){
+  .call-to-action-2-content div:nth-child(2) a{
+    font-size: 12px;
+  }
+.call-to-action-content div:nth-child(2) a {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.call-to-action-2-content div:nth-child(1) h2 {
+  font-size: 26px;
+}
+}
+
+@media(max-width: 1280px){
+  .call-to-action-content {
+    width: 60%;
+}
+
+.owners li div:nth-child(2) h2 {
+  font-size: 22px;
+}
+
+.objective-inner ul {
+  margin-top: 30px;
+}
+
+.objective-inner ul li {
+  width: 45%;
+}
+
+.call-to-action-content div:nth-child(2) a {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.call-to-action-content div:nth-child(1) h2 {
+  font-size: 26px;
+}
+
+.call-to-action-2-content div:nth-child(2) a {
+  font-size: 10px;
+}
+}
+
+@media(min-width: 1000px){
+  
+  .owners li:nth-child(1) h2 {
+    font-size: 21px;
+  }
+  .owners li:nth-child(2) h2 {
+    font-size: 21px;
+  }
+  .owners li:nth-child(3) h2 {
+    font-size: 21px;
+  }
+
+  .owners li:nth-child(1) p {
+    font-size: 14px;
+  }
+  .owners li:nth-child(2) p {
+    font-size: 14px;
+  }
+  .owners li:nth-child(3) p {
+    font-size: 14px;
+  }
+
+
+}
+
+@media(min-width: 769px){
+  .nav-item::after {
+    content: ""; /* Adiciona o conteúdo do pseudo-elemento */
+    display: block; /* Faz o pseudo-elemento ser um bloco separado */
+    width: 50%; /* Define a largura do risco igual à largura do elemento pai */
+    height: 2px; /* Define a altura do risco */
+    background-color: #EBAE34; /* Define a cor do risco */
+    margin-top: 5px; /* Ajusta o espaçamento entre o texto e o risco */
+    margin-left: 8px
+  }
+}
+
+@media(max-width: 768px){
+
+  .we-inner h1{
+    text-align: center;
+  }
+
+  .objective-inner ul{
+    width: 90%
+  }
+
+  .objective-inner ul li{
+    width: 100%
+  }
+
+  #video{
+    width: 90%
+  }
+
+  .call-to-action-content div:nth-child(2) a {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    margin-top: 25px
+}
+
+  .owners{
+    flex-direction: column !important;
+    padding-left: 0 !important;
+  }
+
+  .owners li{
+    width: 100%;
+    margin: 15px 0;
+    flex-direction: column;
+  }
+
+  .owners li:nth-child(1) div:nth-child(1){
+    width: 100%
+  }
+
+  .owners li:nth-child(2) div:nth-child(1){
+    width: 100%
+  }
+
+  .owners li:nth-child(3) div:nth-child(1){
+    width: 100%
+  }
+
+  .owners li div:nth-child(2){
+    width: 100%;
+  }
+
+  .owners li div:nth-child(2) p{
+    text-align: justify;
+  }
+
+  .owners li div:nth-child(2) h2{
+    text-align: center;
+  }
+
+  .header {
+    height: initial;
+    width: 100%
+}
+
+.topo-inner{
+  width: 90%
+}
+
+.topo-inner :nth-child(2) :nth-child(2) a {
+  text-align: center;
+}
+
+.topo-inner :nth-child(2) {
+  align-items: center;
+}
+
+.topo-inner > :nth-child(1) > :nth-child(1){
+  padding: 0
+}
+
+.topo-inner :nth-child(1) :nth-child(2){
+display: none;
+}
+
+.call-to-action-2-content div:nth-child(1) {
+  width: 100%;
+}
+
+.call-to-action-2-content div:nth-child(2) {
+  width: 100%;
+}
+
+.call-to-action-content div:nth-child(1) p{
+  text-align: center;
+}
+
+  .call-to-action-inner{
+    height: 344px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    width: 100%;
+    padding-bottom: 40px
+  }
+
+  .call-to-action-content div:nth-child(1) h2{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .call-to-action-inner img {
+    width: 100px !important;
+    height: 100px !important;
+    display: flex;
+    position: initial;
+}
+
+  .call-to-action-2-inner img{
+    width: 100px;
+    height: 100px;
+    position: initial
+  }
+
+  .call-to-action-inner img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .call-to-action-2-content {
+    flex-direction: column;
+    width: 100%
+}
+
+.midias {
+  gap: 20px;
+}
+
+.call-to-action-2-content div:nth-child(2) {
+  justify-content: center;
+}
+
+.call-to-action-2-content div:nth-child(2) a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.bg-container {
+  height: 743px;
+}
+
+.call-to-action-2-content div:nth-child(1) h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 22px;
+}
+
+.call-to-action-2-inner{
+  width: 90%;
+  height: 362px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 31px;
+}
+
+.call-to-action-content {
+  flex-direction: column;
+  width: 90%
+}
+
+.text-price :nth-child(1) {
+  font-size: 25px;
+}
+
+.text-price :nth-child(2) {
+  font-size: 35px;
+}
+
+.text-price :nth-child(3) {
+  font-size: 25px;
+}
+
+.text-price :nth-child(5) {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.text-price :nth-child(6) {
+  font-size: 25px;
+}
+
+.text-price :nth-child(7) {
+  font-size: 25px;
+}
+
+.text-price :nth-child(8) {
+  font-size: 35px;
+}
+
+.text-price :nth-child(9) {
+  font-size: 25px;
+}
+
+.details-inner{
+  width: 90%;
+}
+
+.details-inner h1 {
+  text-align: center;
+}
+
+.objective-inner {
+  width: 90%;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px
+}
+
+.video a{
+  display: flex;
+  justify-content: center;
+}
+
+.video img{
+  width: 90%
+}
+
+footer div:nth-child(1) {
+  flex-direction: column;
+  width: 85%;
+}
+
+.footer-logo {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center;
+}
+
+.footer-logo img{
+  width: 60%
+}
+
+.footer-text {
+  width: 100% !important;
+  align-items: center;
+}
+
+.footer-text p{
+  text-align: center;
+}
+
+footer div:nth-child(2) {
+  width: 90%;
+}
+
+.about {
+  height: 1329px;
+}
+
+
+.about-inner {
+  margin-top: 40px;
+  width: 90%;
+  text-align: center;
+}
+
+.timer {
+  width: 100%;
+  height: 82px;
+  position: relative;
+  top: -24px;
+}
+
+#countdown ul{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#countdown li {
+  display: inline-block;
+  font-size: 0.6em;
+  list-style-type: none;
+  padding: 0 0.7em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#countdown li span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.we-inner {
+  width: 90%;
+}
+
+.we-inner p{
+  text-align: center;
+}
+
+
+
+
+}
