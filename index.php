@@ -78,11 +78,11 @@
 
             <div>
               <div>
-              <span>Imagine...</span><br>
-              <span>você decifrando as outras pessoas instantaneamente para proporcionar melhores negócios e maior interatividade.</span>
+              <span></span><br>
+              <span class="texto"><strong>Imagine...</strong> <br>você decifrando as outras pessoas instantaneamente para proporcionar melhores negócios e maior interatividade.</span>
               </div>
-              <div>
-                <img src="./assets/pessoas.jpg"/>
+              <div class="img-imagine">
+                <img src="./assets/pessoas.png"/>
               </div>
             </div>
 
@@ -170,7 +170,7 @@
 
     <section class="details" id="detalhes">
       <div class="details-inner">
-        <h1 class="animate-on-scroll">COMO FUNCIONA <strong>DO CURSO</strong></h1>
+        <h1 class="animate-on-scroll">COMO FUNCIONA <strong>O CURSO</strong></h1>
         <span class="line-2">&nbsp;</span>
         <div class="text">
           <p>

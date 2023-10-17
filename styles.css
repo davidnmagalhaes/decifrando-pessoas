@@ -160,9 +160,16 @@ a:hover.nav-link{
  color: #f2b628
 }
 
+.texto > strong{
+  color: #f2b628;
+  margin-bottom: -20px
+}
+
 .topo-inner > :nth-child(1) > :nth-child(1) > :nth-child(3) {
-  font-size: 28px;
-  line-height: 35px;
+  font-size: 45px;
+    line-height: 50px;
+    position: absolute;
+    width: 37%;
  }
 
  .topo-inner > :nth-child(1) > :nth-child(1) > :nth-child(5) {
@@ -469,6 +476,7 @@ line-height: normal;
     color: #4913b5;
     text-align: center;
 }
+
 
 .toggle-button.active {
   background-color: #4913b5;
